@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "project_keeper"
+version = "0.1.0"
+description = "For companies project management, including docker images or some scripts"
+authors = ["WeiChen Lin <asdfg09487@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyfiglet = "^0.8.post1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
